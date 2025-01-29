@@ -1,0 +1,11 @@
+Sub clearCell()
+
+    Dim myRange As Range
+    
+    Set myRange = ThisWorkbook.ActiveSheet.Range("B7:B50000")
+    
+    myRange.Clear
+    
+    MsgBox ("Clear Result Done!!")
+
+End Sub
